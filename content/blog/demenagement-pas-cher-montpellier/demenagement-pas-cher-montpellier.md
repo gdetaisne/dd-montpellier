@@ -71,7 +71,7 @@ Pour vous donner une idée réaliste des coûts en 2025 dans l'agglomération mo
 - T2/T3 : 800€ à 1500€
 - T4/Maison : 1500€ à 3000€
 
-Ces tarifs sont donnés pour un déménagement local au sein de Montpellier ou dans l'agglomération. Pour un déménagement longue distance (Montpellier-Paris, Montpellier-Marseille, Montpellier-Toulouse), ajoutez 200€ à 800€ selon le kilométrage. Pour obtenir un [prix précis adapté à votre situation](/blog/prix-demenagement-montpellier/prix-demenagement-montpellier), demandez des devis détaillés.
+Ces tarifs sont donnés pour un déménagement local au sein de Montpellier ou dans l'agglomération. Pour un déménagement longue distance (Montpellier-Paris, Montpellier-Marseille, Montpellier-Toulouse), ajoutez 200€ à 800€ selon le kilométrage. Pour une analyse complète des tarifs par formule, consultez notre [guide prix déménagement Montpellier](/blog/prix-demenagement-montpellier/prix-demenagement-montpellier).
 
 ## Les solutions pour un déménagement économique à Montpellier
 
