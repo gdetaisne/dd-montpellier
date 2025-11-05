@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Host
+Host: https://devis-demenageur-montpellier.fr/
+
+# Sitemaps
+Sitemap: https://devis-demenageur-montpellier.fr/sitemap.xml
