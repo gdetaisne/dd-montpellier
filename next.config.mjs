@@ -46,6 +46,10 @@ const nextConfig = {
   // Redirections 404 - Nettoyage Montpellier
   async redirects() {
     const existing = [
+      // VAGUE 1 – Migration homepage domaine → page ville moverz.fr
+      { source: '/', destination: 'https://moverz.fr/demenagement/montpellier/', permanent: true },
+
+      // Redirections historiques
       // SATELLITES : Articles sans -montpellier → avec -montpellier
       { source: '/blog/satellites/conteneur-demenagement-international', destination: '/blog/satellites/conteneur-demenagement-international-montpellier', permanent: true },
       { source: '/blog/satellites/astuces-reduire-cout-demenagement', destination: '/blog/satellites/astuces-reduire-cout-demenagement-montpellier', permanent: true },
