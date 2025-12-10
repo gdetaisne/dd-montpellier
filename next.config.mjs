@@ -55,10 +55,10 @@ const nextConfig = {
       { source: '/montpellier-vers-paris/', destination: 'https://moverz.fr/montpellier-vers-paris/', permanent: true },
       { source: '/montpellier-vers-toulouse/', destination: 'https://moverz.fr/montpellier-vers-toulouse/', permanent: true },
       // Services
-      { source: '/services/', destination: 'https://moverz.fr/services/', permanent: true },
-      { source: '/services/demenagement-economique-montpellier/', destination: 'https://moverz.fr/services/demenagement-economique/', permanent: true },
-      { source: '/services/demenagement-premium-montpellier/', destination: 'https://moverz.fr/services/demenagement-premium/', permanent: true },
-      { source: '/services/demenagement-standard-montpellier/', destination: 'https://moverz.fr/services/demenagement-standard/', permanent: true },
+      { source: '/services/', destination: 'https://moverz.fr/', permanent: true },
+      { source: '/services/demenagement-economique-montpellier/', destination: 'https://moverz.fr/', permanent: true },
+      { source: '/services/demenagement-premium-montpellier/', destination: 'https://moverz.fr/', permanent: true },
+      { source: '/services/demenagement-standard-montpellier/', destination: 'https://moverz.fr/', permanent: true },
       // Pages communes
       { source: '/cgu/', destination: 'https://moverz.fr/cgu/', permanent: true },
       { source: '/cgv/', destination: 'https://moverz.fr/cgv/', permanent: true },
