@@ -1,4 +1,4 @@
-import { getMoverzBlogRedirectsForHost } from './scripts/blog-moverz-redirects.mjs';
+import { getMoverzBlogRedirectsForHost } from '../../scripts/blog-moverz-redirects.mjs';
 
 const HOST = 'devis-demenageur-montpellier.fr';
 
@@ -39,8 +39,12 @@ const nextConfig = {
   async redirects() {
     const existing = [
       // Homepage → Page ville moverz.fr
+      { source: '/', destination: 'https://moverz.fr/demenagement/montpellier/', permanent: true },
       // Blog hub → moverz.fr
+      { source: '/blog', destination: 'https://moverz.fr/blog/', permanent: true },
+      { source: '/blog/', destination: 'https://moverz.fr/blog/', permanent: true },
       // Blog articles → moverz.fr
+      { source: '/blog/demenagement-montpellier/:slug*', destination: 'https://moverz.fr/blog/:slug*', permanent: true },
       // Quartiers montpellier (6 pages)
       { source: '/montpellier/', destination: 'https://moverz.fr/montpellier/', permanent: true },
       { source: '/montpellier/antigone/', destination: 'https://moverz.fr/montpellier/antigone/', permanent: true },
@@ -49,6 +53,7 @@ const nextConfig = {
       { source: '/montpellier/ecusson/', destination: 'https://moverz.fr/montpellier/ecusson/', permanent: true },
       { source: '/montpellier/port-marianne/', destination: 'https://moverz.fr/montpellier/port-marianne/', permanent: true },
       // Hub quartiers montpellier
+      { source: '/quartiers-montpellier/', destination: 'https://moverz.fr/quartiers-montpellier/', permanent: true },
       // Corridors depuis montpellier (4 pages)
       { source: '/montpellier-vers-lyon/', destination: 'https://moverz.fr/montpellier-vers-lyon/', permanent: true },
       { source: '/montpellier-vers-marseille/', destination: 'https://moverz.fr/montpellier-vers-marseille/', permanent: true },
